@@ -1,8 +1,8 @@
 # A cleaned and smaller-sized repo featuring Johns Hopkins University Covid-19 Data 
 
-This repository contains cleaned daily reports and time series data from the 2019 Novel Coronavirus COVID-19 (2019-nCoV) Data Repository by Johns Hopkins University for Systems Science and Engineering (JHU CSSE). More specifically, it contains data from a previous project of mine that would process JHU data in a consistent format on a semi-daily basis. You can find my original repository [HERE](https://github.com/Lucas-Czarnecki/COVID-19-CLEANED-JHUCSSE). 
+This repository contains cleaned daily reports from the COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University. More specifically, it contains cleaned data from a previous project of mine that would process JHU data in a consistent format. You can find my original repository [HERE](https://github.com/Lucas-Czarnecki/COVID-19-CLEANED-JHUCSSE). 
 
-The purpose of this repository is to keep only data necessary for future projects. I've made the repo public as it may be of interest to others. If you wish to review the operations used to clean the original data from JHU, please see the original repo [HERE](https://github.com/Lucas-Czarnecki/COVID-19-CLEANED-JHUCSSE). 
+The purpose of this repository is to create a smaller-sized version of my original repository for future projects. I've made this repo public as it may be of interest to others. If you wish to review the operations used to clean the original data from JHU, please see the original repo [HERE](https://github.com/Lucas-Czarnecki/COVID-19-CLEANED-JHUCSSE). 
 
 ---
 ## Credits
