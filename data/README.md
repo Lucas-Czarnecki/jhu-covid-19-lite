@@ -1,1 +1,1 @@
-Check back soon for data
+Cleaned daily reports
