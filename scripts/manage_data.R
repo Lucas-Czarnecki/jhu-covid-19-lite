@@ -26,7 +26,8 @@ daily_reports$Population <-  lookup_table$Population[match(daily_reports$Combine
 
 # Encode and organize columns   
 daily_reports <- daily_reports %>%
-  mutate(Province_State = as.factor(Province_State),
+  mutate(Admin2 = as.factor(Admin2),
+         Province_State = as.factor(Province_State),
          Date_Published = as.Date(Date_Published, format = "%m-%d-%Y"),
          Country_Region = as.factor(Country_Region),
          ) %>% 
