@@ -52,10 +52,10 @@ str(daily_reports)
 daily_reports <- daily_reports %>% 
   select(-Active, -Recovered)
 
+# data must have at least one confirmed case
+daily_reports <- daily_reports %>% 
+  subset(Confirmed >= 1)
+
 # export data frame -------------------------------------------------------
 
 saveRDS(daily_reports, "jhu_covid19_main.RDS")
-
-
-
-
