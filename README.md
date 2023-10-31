@@ -4,6 +4,8 @@ This repository contains cleaned daily reports from the COVID-19 Data Repository
 
 The purpose of this repository is to create a smaller-sized version of my original repository for future projects. I've made this repo public as it may be of interest to others. If you wish to review the operations used to clean the original data from JHU, please see the original repo [HERE](https://github.com/Lucas-Czarnecki/COVID-19-CLEANED-JHUCSSE). 
 
+You can find the cleaned data [HERE](https://github.com/Lucas-Czarnecki/jhu-covid-19-lite/tree/main/data/daily_reports).
+
 ---
 ## Credits
 

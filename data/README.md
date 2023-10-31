@@ -1,4 +1,4 @@
-# Cleaned Daily Reports (csse_covid_19_daily_reports)
+# Cleaned Daily Reports from JHU
 
 This folder contains cleaned daily reports from CSSE JHU. Unlike CSSE JHU's raw csv files, every file in this folder consists of the same variables. 
 
@@ -8,7 +8,7 @@ This folder contains cleaned daily reports from CSSE JHU. Unlike CSSE JHU's raw 
 
 The following columns are found in every csv file in this order:
 
-1. Date_Published *
+1. Date_Published
 2. FIPS                
 2. Admin2             
 3. Province_State      
@@ -21,8 +21,6 @@ The following columns are found in every csv file in this order:
 10. Recovered 
 11. Active            
 12. Combined_Key    
-
-> Note: * `Date_Published` is used to keep track of daily reports. Note then that the dates record in `Date_Published` may differ from those recorded in `Last_Update`.  
 
 ### **How the data differ from JHU:**
 
@@ -42,56 +40,3 @@ The following columns are found in every csv file in this order:
 
 * `FIPS` codes are fixed to address known issues pertaining to JHU truncating leading zeros (e.g., [#2638](https://github.com/CSSEGISandData/COVID-19/issues/2638) and [#2530](https://github.com/CSSEGISandData/COVID-19/issues/2530)). `FIPS` values in this repo are corrected to 2 digits at the state-level and 5 digits at the county-level. 
 
----
-## Record of Changes from JHU CSSE
-
-The following is a log of how JHU CSSE naming conventions for daily reportes has changed over time. 
-
-<ins>Daily reports from January 22nd to February 29th, 2020:</ins>
- 1) Province/State 
- 2) Country/Region 
- 3) Last Updated 
- 4) Confirmed 
- 5) Deaths 
- 6) Recovered 
-
-<ins>Daily reports starting March 1st until March 21st, 2020:</ins> 
- 1) Province/State 
- 2) Country/Region 
- 3) Last Updated 
- 4) Confirmed 
- 5) Deaths 
- 6) Recovered 
- 7) Latitude            **(NEW !!!)**
- 8) Longitude           **(NEW !!!)**
-
-<ins>Daily Reports starting March 22nd, 2020, to the present:</ins>
- 1) FIPS                 **(NEW !!!)**
- 2) Admin2               **(NEW !!!)**
- 3) Province_State       **(RENAMED !!!)** 
- 4) Country_Region       **(RENAMED !!!)**
- 5) Last_Updated         **(RENAMED !!!)**
- 6) Lat                  **(RENAMED !!!)**
- 7) Long_                **(RENAMED !!!)**              
- 8) Confirmed 
- 9) Deaths 
- 10) Recovered 
- 11) Active              **(NEW !!!)**
- 12) Combined_Key        **(NEW !!!)**
-
-___
-
-<ins>The data in this repository uses the following R-friendly naming conventions for all daily reports:</ins>
-1. Date_Published 
-2. FIPS                
-2. Admin2             
-3. Province_State      
-4. Country_Region      
-5. Last_Updated         
-6. Latitude            
-7. Longitude                    
-8. Confirmed 
-9. Deaths 
-10. Recovered 
-11. Active            
-12. Combined_Key      
